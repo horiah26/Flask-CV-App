@@ -19,6 +19,7 @@ def print_cv():
         raise ValueError("No CV found or CV is empty")
     processed_data = process_data(cv_data)
     click.echo(processed_data)
+    print("New branch")
 
 
 app.cli.add_command(print_cv)
